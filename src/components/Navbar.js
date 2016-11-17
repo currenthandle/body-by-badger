@@ -13,20 +13,24 @@ class Navbar extends Component {
         <IndexLink to='/'
             className='index'
         >
-            <img src='logo.jpg' />
+            <img src='logo.jpg' 
+                className='logo'
+            />
         </IndexLink>
-        <Link to='treatments'
-            className='link'
-        >Treatments</Link>
-        <Link to='therapist'
-            className='link'
-        >Therapist</Link>
-        <Link to='results'
-            className='link'
-        >Results</Link>
-        <Link to='contact'
-            className='link'
-        >Contact</Link>
+        <div className='link-container'>
+            <div className='link'>
+                <Link to='treatments'>Treatments</Link>
+            </div>
+            <div className='link'>
+                <Link to='therapist'>Therapist</Link>
+            </div>
+            <div className='link'>
+                <Link to='results' >Results</Link>
+            </div>
+            <div className='link'>
+                <Link to='contact' >Contact</Link>
+            </div>
+        </div>
       </nav>
     );
   }
