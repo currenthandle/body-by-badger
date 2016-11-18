@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 //import './SamplePack.css';
 import Navbar from './Navbar';
 
+import './css/Header.css';
+
 class Header extends Component {
   render() {
     return (
