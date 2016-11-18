@@ -1,20 +1,28 @@
-.navbar {
-  padding: 0 5% 0 5%;
-  display: flex;
-  width: 100%;
-  height: 10rem; }
-  .navbar .logo {
-    width: 9rem;
-    flex: 0 0 9rem;
-    margin-top: .7rem; }
-  .navbar .link-container {
-    flex: 1 1 auto; }
-    .navbar .link-container .link {
-      width: 25%;
-      display: inline-block;
-      box-sizing: border-box;
-      padding: 4.5rem 4%;
-      text-align: center; }
-      .navbar .link-container .link a {
-        text-decoration: none;
-        font-size: 1.6rem; }
+.nav-container {
+  padding: 0 7vw 0 7vw;
+  text-align: center; }
+  .nav-container .navbar {
+    display: flex;
+    width: 100%;
+    height: 10rem; }
+    .nav-container .navbar .logo {
+      width: 6.7rem;
+      flex: 0 0 6.7rem;
+      margin-top: .7rem; }
+    .nav-container .navbar .link-container {
+      flex: 1 1 auto;
+      text-align: left;
+      margin-top: 1rem; }
+      .nav-container .navbar .link-container .link {
+        flex-wrap: nowrap;
+        display: inline-block;
+        padding: .6rem 2%;
+        margin: 1.74rem 3%;
+        text-align: center; }
+        .nav-container .navbar .link-container .link:hover {
+          background-color: rgba(50, 50, 50, 0.28);
+          border-radius: .4rem; }
+        .nav-container .navbar .link-container .link a {
+          text-decoration: none;
+          font-size: 1.6rem;
+          color: black; }
