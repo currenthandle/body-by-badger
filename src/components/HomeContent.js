@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './css/homeContent.css';
+import './css/HomeContent.css';
 
-class homeContent extends Component {
+class HomeContent extends Component {
   render() {
     return (
       <div className='home-content'>
@@ -23,4 +23,4 @@ class homeContent extends Component {
   }
 }
 
-export default homeContent;
+export default HomeContent;

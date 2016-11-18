@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import homeContent from './homeContent';
+import HomeContent from './HomeContent';
 
 //import './css/Home.css';
 
@@ -8,7 +8,7 @@ class Home extends Component {
     render() {
         return (
             <div className='Home'>
-                <homeContent />
+                <HomeContent />
                 <h2>About Vengeance Producer Suite Metrum</h2>
                 <div className='about-text-container'>
 
