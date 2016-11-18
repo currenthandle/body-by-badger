@@ -1,13 +1,15 @@
 $logo-width: 9rem;
 .navbar {
+    padding: 0 5% 0 5%;
     display: flex;
     width: 100%;
     height: 10rem;
+
     .logo {
         width: $logo-width;
         //display: inline-block;
         flex: 0 0 $logo-width;
-        margin: .7rem 1.5rem;
+        margin-top: .7rem;
     }
     .link-container{
         //display: inline-block;
@@ -18,11 +20,11 @@ $logo-width: 9rem;
             width: 25%;
             display: inline-block;
             box-sizing: border-box;
-            padding: 3.7rem 7%;
+            padding: 4.5rem 4%;
             text-align: center;
             & a{
                 text-decoration: none;
-                font-size: 2rem;
+                font-size: 1.6rem;
             
             }
         }
